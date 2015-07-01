@@ -1,0 +1,172 @@
+.container{
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.textOper{
+  position: relative;
+  top: 47px;
+  left: -310px;
+  font-size: 20px;
+  color: rgb(184, 184, 184);
+  text-align: right;
+}
+
+.calcBorder{
+  border: 3px solid rgb(150, 150, 150);
+  width: 220px;
+  height: 310px;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  top: 75px;
+  left: 275px;
+  background: rgb(240, 240, 240);
+  box-shadow: 8px 8px 10px #646363;
+}
+
+.textBorder{
+  border: 1px solid rgb(150, 150, 150);
+  width: 120px;
+  height: 20px;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  top: 161px;
+  left: 353px;
+  background: rgb(255, 255, 255);
+  box-shadow: -2px -2px 1px #000000;
+}
+
+h1{
+  position: absolute;
+  top: 158px;
+  left: 378px;
+  font-size: 11px;
+  color: rgb(86, 86, 86);
+}
+
+button{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 20px;
+}
+
+.butOper{
+  background: rgb(255, 166, 65);
+}
+
+.butOper:hover{
+  background: rgb(255, 255, 180);
+}
+.butNums:hover{
+  background: rgb(255, 255, 180);
+}
+#butC:hover{
+  background: rgb(255, 255, 180);
+}
+#butEquals:hover{
+  background: rgb(255, 255, 180);
+}
+
+#disp{
+  background: white;
+  font-size: 20px;
+  text-align: right;
+  width: 175px;
+  height: 40px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+#butC{
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  background: rgb(239, 96, 96);
+}
+
+#but7{
+  position: absolute;
+  top: 195px;
+  left: 300px;
+}
+#but8{
+  position: absolute;
+  top: 195px;
+  left: 345px;
+}
+#but9{
+  position: absolute;
+  top: 195px;
+  left: 390px;
+}
+#butDiv{
+  position: absolute;
+  top: 195px;
+  left: 435px;
+}
+#but4{
+  position: absolute;
+  top: 240px;
+  left: 300px;
+}
+#but5{
+  position: absolute;
+  top: 240px;
+  left: 345px;
+}
+#but6{
+  position: absolute;
+  top: 240px;
+  left: 390px;
+}
+#butTimes{
+  position: absolute;
+  top: 240px;
+  left: 435px;
+}
+#but1{
+  position: absolute;
+  top: 285px;
+  left: 300px;
+}
+#but2{
+  position: absolute;
+  top: 285px;
+  left: 345px;
+}
+#but3{
+  position: absolute;
+  top: 285px;
+  left: 390px;
+}
+#butMinus{
+  position: absolute;
+  top: 285px;
+  left: 435px;
+}
+#but0{
+  position: absolute;
+  top: 330px;
+  left: 300px;
+}
+#butDot{
+  position: absolute;
+  top: 330px;
+  left: 345px;
+}
+#butEquals{
+  position: absolute;
+  top: 330px;
+  left: 390px;
+}
+#butPlus{
+  position: absolute;
+  top: 330px;
+  left: 435px;
+}
